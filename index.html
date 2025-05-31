@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Chatbot</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="chat-container">
+        <div class="chat-header">
+          <h1>🤖 AI Chatbot</h1>
+          <p>Powered by DeepSeek R1</p>
+        </div>
+        <div id="chat-messages" class="chat-messages"></div>
+        <div class="chat-input-container">
+          <input 
+            type="text" 
+            id="message-input" 
+            placeholder="Type your message..." 
+            autocomplete="off"
+          />
+          <button id="send-button">Send</button>
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
